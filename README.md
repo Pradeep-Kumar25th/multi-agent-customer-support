@@ -71,8 +71,7 @@ Customer Inquiry
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/multi-agent-customer-support.git
-cd multi-agent-customer-support
+git clone https://github.com/Pradeep-Kumar25th/multi-agent-customer-support.git
 ```
 
 ### 2. Install dependencies
