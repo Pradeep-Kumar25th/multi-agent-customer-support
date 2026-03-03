@@ -1,7 +1,6 @@
 # Multi-Agent Customer Support Automation
 
 > **Built with:** CrewAI · OpenAI GPT · Python  
-> **Source:** [Multi AI Agent Systems with CrewAI — DeepLearning.AI](https://learn.deeplearning.ai/courses/multi-ai-agent-systems-with-crewai)  
 > **Author:** Pradeep Kumar
 
 ---
@@ -107,16 +106,6 @@ inputs = {
     "inquiry": "How do I configure agent memory with a custom embedding model?"
 }
 ```
-
----
-
-## What I'd Build Next
-
-- **RAG layer:** Replace `ScrapeWebsiteTool` with a full RAG pipeline (LangChain + Pinecone) so the Support Agent can query an entire documentation corpus
-- **Triage agent:** Add an upstream classifier that routes inquiries to specialist sub-crews (billing, technical, feature requests)
-- **Observability:** Instrument with LangSmith to trace agent reasoning steps and catch hallucinations
-- **Production API:** Wrap `crew.kickoff()` in a FastAPI endpoint for real-time support
-- **Human-in-the-loop:** Add a human approval step for high-stakes inquiries before the QA Agent finalises
 
 ---
 
